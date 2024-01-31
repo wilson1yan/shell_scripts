@@ -1,0 +1,3 @@
+#!/bin/bash
+
+gsutil -o 'GSUtil:parallel_thread_count=1' -o 'GSUtil:sliced_object_download_max_components=32' cp $1 $2
